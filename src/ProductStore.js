@@ -10,6 +10,7 @@ export const categories = [
     { image: '/image/milk&cake.png', name: 'Milk & Cake', itemCount: 53, backgroundColor: '#F2FCE4'},
     { image: '/image/orange.png', name: 'Orange', itemCount: 63, backgroundColor: '#FFF3FF' },
   ]
+  
 export const  promotions = [
     { title: 'Everyday Fresh & Clean with Our Products', 
     image: '/image/onion.png', width: 200,backgroundColor: '#F0E8D5'},
@@ -18,7 +19,8 @@ export const  promotions = [
     { title: 'The best Organic Products Online', 
     image: '/image/vegetables.png', width: 240, backgroundColor: '#E7EAF3'}
   ]
-  export const products = [
+
+export const products = [
     {
       id: 1,
       image: '/image/cakeandmilk.png',
@@ -46,3 +48,10 @@ export const  promotions = [
     // Add more products as needed
   ];
   
+export const  popProduct =[
+  {
+    
+    image: '/image/peach.png',
+  }
+
+]
